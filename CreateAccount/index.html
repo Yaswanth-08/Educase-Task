@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Create New Account</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+  <h1>Create your<br>PopX account</h1>
+  <form action="/action_page.php" method="post">
+    <label for="name" class="tag-name">Full Name</label>
+    <input type="text" class="btn" id="name" name="Name" placeholder="Marry Doe" required>
+    <label for="mail" class="tag-name">Email Address</label>
+    <input type="number" class= "btn" id="mail" name="email" placeholder="Enter Mob.num">
+    <label for="psw" class="tag-name">Password</label>
+    <input type="password" class="btn" id="psw" name="password" placeholder="Marry Doe" required>
+    <label for="company" class="tag-name">Company Name</label>
+    <input type="text" class= "btn" id="company" name="company" placeholder="Marry Doe">
+    <div class="radio-button">
+        <p>Are  you an Agency?</p>
+        <label><input id="yes" type="radio" name="yes-no" value="Yes" checked>Yes</label>
+            <label><input id="no" type="radio" name="yes-no" value="no">No</label>
+    </div>
+    <button type="submit" class="btn-5">Create Account</button>
+  </form>
+</div>
+</body>
+</html>
